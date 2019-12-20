@@ -3,6 +3,7 @@ body {
     background-color: #ffffff;
     background: url("../images/round.png");
     width: 960px;
+    padding-left: 200px;
 }
 
 .menu-left {
@@ -51,6 +52,107 @@ p {
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
+.box1 {
+    position: relative;
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.box1 .sites {
+    position: absolute;
+    z-index: 1;
+    margin: auto 0;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 75%; 
+    background: #4aaaa5;
+    font-family: Arial,sans-serif;
+    color: #fff;
+    width: 400px; 
+}
+
+.box2 {
+    position: relative;
+    display: inline-block;    
+}
+
+.box2 .instagram {
+    position: absolute;
+    z-index: 1;
+    margin: auto 0;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 75%; 
+    background: #4aaaa5;
+    font-family: Arial,sans-serif;
+    color: #fff;
+    width: 400px; 
+}
+
+.box3 {
+    position: relative;
+    display: inline-block;
+    padding-right: 40px;
+
+}
+
+.box3 .languages {
+    position: absolute;
+    z-index: 1;
+    margin: auto 0;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 75%; 
+    background: #4aaaa5;
+    font-family: Arial,sans-serif;
+    color: #fff;
+    width: 400px; 
+}
+
+.box4 {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.box4 .interests {
+    position: absolute;
+    z-index: 1;
+    margin: auto 0;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 75%; 
+    background: #4aaaa5;
+    font-family: Arial,sans-serif;
+    color: #fff;
+    width: 400px; 
+}
+
+.box5 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    
+}
+
+.box5 .github {
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 75%; 
+    background: #4aaaa5;
+    font-family: Arial,sans-serif;
+    color: #fff;
+    width: 400px; 
+}
+
 footer {
     height: 30px;
     background-color: #666666;
@@ -59,6 +161,36 @@ footer {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 0px;
-    border-top: 8px solid #4aaaa5;
-    
+    border-top: 8px solid #4aaaa5;  
 }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #4aaaa5;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+
